@@ -1,6 +1,6 @@
 {
   "bin": {
-    "fib-cli": "bin/index.js"
+    "fib-cli": "lib/index.js"
   },
   "name": "fib-cli",
   "version": "1.0.1",
