@@ -3,7 +3,7 @@
     "fib-cli": "bin/index.js"
   },
   "name": "fib-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tools for fib-app",
   "main": "bin/index.js",
   "scripts": {
