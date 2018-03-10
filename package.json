@@ -3,9 +3,9 @@
     "fib-cli": "lib/index.js"
   },
   "name": "fib-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tools for fib-app",
-  "main": "bin/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
