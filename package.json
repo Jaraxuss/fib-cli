@@ -3,7 +3,7 @@
     "fib-cli": "lib/index.js"
   },
   "name": "fib-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI tools for fib-app",
   "main": "lib/index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.15.0"
+    "commander": "^2.15.0",
+    "ncp": "^2.0.0"
   }
 }

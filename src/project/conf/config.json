@@ -1,0 +1,9 @@
+{
+    "//": "http port",
+    "port": 8080,
+    "//": "database type",
+    "type": "sqlite",
+    "//": "database conn",
+    "sqlite": "sqlite:./tmp/test.db",
+    "frontendPath": "../proj/www"
+}

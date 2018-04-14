@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "fibjs ./bin/init.js",
+    "start": "fibjs .",
+    "test": "fibjs ./test/index.js",
+    "mock": "fibjs ./bin/mock.js",
+    "dot": "fibjs ./bin/diagram.js; /usr/bin/open -a '/Applications/Safari.app' file:///`pwd`/tmp/diagram.svg",
+    "cov": "export Decurio_runMode=TestCase;fibjs --cov=./tmp/.lcov ./test/; fibjs --cov-process ./tmp/.lcov ./tmp/out; /usr/bin/open -a '/Applications/Safari.app' file:///`pwd`/tmp/out/index.html",
+    "doc": "apidoc -f '.*\\.js$'  -i ./defs -o ./tmp/apidoc/",
+    "clean": "rm -rf ./tmp/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fib-app": "^1.9.1",
+    "fib-kv": "^1.1.0",
+    "fib-log": "0.0.4",
+    "fib-orm": "^1.3.2",
+    "fib-pool": "^1.3.1",
+    "fib-push": "^1.0.0",
+    "fib-session": "^0.2.0",
+    "graphql-iso-date": "^3.4.0"
+  },
+  "devDependencies": {
+    "viz.js": "^1.8.0"
+  }
+}
