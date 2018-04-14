@@ -1,6 +1,6 @@
 fib-cli
 ===
-CLI tools for [fib-app](https://github.com/fibjs/fib-app/)
+CLI for [fib-app](https://github.com/fibjs/fib-app/)
 
 ## Install
 ```

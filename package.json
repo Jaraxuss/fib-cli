@@ -3,15 +3,19 @@
     "fib-cli": "lib/index.js"
   },
   "name": "fib-cli",
-  "version": "1.0.5",
-  "description": "CLI tools for fib-app",
+  "version": "1.0.6",
+  "description": "CLI for fib-app",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jaraxuss/fib-cli"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Velen",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.15.0",
     "ncp": "^2.0.0"
