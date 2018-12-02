@@ -3,7 +3,7 @@
     "fib-cli": "lib/index.js"
   },
   "name": "fib-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CLI for fib-app",
   "main": "lib/index.js",
   "scripts": {
@@ -18,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.15.0",
+    "fs-readfile-promise": "^3.0.1",
+    "fs-writefile-promise": "^3.0.1",
     "ncp": "^2.0.0"
   }
 }
